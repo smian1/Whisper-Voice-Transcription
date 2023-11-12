@@ -17,11 +17,11 @@ Before running the script, ensure you have the following:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/smian1/Voice-Transcription.git
+   git clone https://github.com/smian1/Whisper-Voice-Transcription.git
 
 2. Navigate to the cloned directory:
    ```bash
-   cd Voice-Transcription-Tool
+   cd Whisper-Voice-Transcription
 3. Install the required dependencies:
    ```bash
     pip install -r requirements.txt
