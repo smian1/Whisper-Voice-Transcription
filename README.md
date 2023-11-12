@@ -1,4 +1,4 @@
-# Voice Transcription Tool
+# Whisper Voice Transcription Tool
 
 This Python script offers a convenient way to record audio through the microphone and transcribe it using OpenAI's powerful API. The transcription is automatically copied to the clipboard and pasted into the currently active window, making it ideal for quickly capturing and transcribing spoken words.
 
