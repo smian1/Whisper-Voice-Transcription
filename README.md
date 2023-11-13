@@ -37,14 +37,7 @@ Before running the script, ensure you have the following:
 ## API Key Configuration
 Place your OpenAI API key in a file named openai_api_key.txt in the same directory as the script.
 
-## Contributing
-   Contributions to this project are welcome! Please feel free to fork the repository, make improvements, and submit pull requests.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-- OpenAI for providing the powerful transcription API.
 
 ## Running in a Virtual Environment (Optional)
 Using a virtual environment is recommended as it keeps dependencies required by different projects separate. Here's how you can set up and use a virtual environment for this script:
@@ -90,3 +83,21 @@ Once you're done, you can deactivate the virtual environment by running:
    deactivate
 
 Using a virtual environment ensures that your project's dependencies are isolated and do not interfere with other Python projects.
+
+
+## Contributing
+   Contributions to this project are welcome! Please feel free to fork the repository, make improvements, and submit pull requests.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments and Learning Resources
+This project leverages the OpenAI API for transcription capabilities. The development of this script was greatly aided by the comprehensive documentation provided by OpenAI. If you're looking to understand more about how the OpenAI API works or want to explore its extensive capabilities, their documentation is an excellent place to start.
+
+## OpenAI API Documentation
+The OpenAI API documentation is a valuable resource for anyone interested in integrating advanced AI features into their applications. It offers detailed guidance on how to use the API, including authentication, making requests, handling responses, and understanding rate limits.
+
+You can find the OpenAI API documentation here: [OpenAI API Documentation](https://platform.openai.com/docs/api-reference) 
+
+Whether you're a beginner or an experienced developer, the OpenAI documentation provides insights and instructions that can help you effectively utilize their API in your projects.
+
