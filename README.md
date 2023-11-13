@@ -45,3 +45,48 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 - OpenAI for providing the powerful transcription API.
+
+## Running in a Virtual Environment (Optional)
+Using a virtual environment is recommended as it keeps dependencies required by different projects separate. Here's how you can set up and use a virtual environment for this script:
+
+
+1. Install Virtualenv (if not already installed):
+
+   ```bash
+   pip install virtualenv
+
+2. Create a Virtual Environment:
+Navigate to the project directory and run:
+
+   ```bash
+   virtualenv venv
+This command creates a new directory named venv in your project directory, which contains the virtual environment.
+
+3. Activate the Virtual Environment:
+
+- On macOS and Linux:
+   ```bash
+   source venv/bin/activate
+
+- On Windows:
+   ```bash
+   .\venv\Scripts\activate
+
+4. Install Dependencies:
+With the virtual environment activated, install the project dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+5. Run the Script:
+Still in the virtual environment, you can now run the script:
+
+   ```bash
+   python voice_transcription.py
+   
+6. Deactivate the Virtual Environment:
+Once you're done, you can deactivate the virtual environment by running:
+
+   ```bash
+   deactivate
+
+Using a virtual environment ensures that your project's dependencies are isolated and do not interfere with other Python projects.
